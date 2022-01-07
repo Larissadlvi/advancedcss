@@ -1,0 +1,45 @@
+.alert p{
+    color: #72353D;
+    background-color: #EAD2D5;
+    margin: 30px; padding: 30px;
+}
+
+.tagOne{
+height: 200px;
+background-color: blue;
+padding: 20px;
+width: 40%;
+border-radius: 50px; border: 1px solid black;
+transform:rotate(90deg);
+animation: exampleone 5s infinite;
+}
+
+.tagTwo {
+height: 200px;
+background-color: red;
+padding: 20px;
+width: 40%;
+border-radius: 50px; border: 1px solid black;
+transform:rotate(90deg);
+animation: exampletwo 5s infinite;
+}
+
+body {
+font-style: Verdana;
+font-size: 1.5em;
+}
+
+/*Add a CSS animation of 5 seconds so the red rectangle becomes blue and the blue one becomes red. */
+
+@keyframes exampleone {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+@keyframes exampletwo {
+    from {background-color: blue;}
+    to {background-color: red;}
+}
+
+/*fuente https://www.w3schools.com/css/css3_animations.asp*/
+/*ejercicios https://github.com/generation-org/INTRO-WEB/tree/master/INTRO-WEB-5%20-%20Advanced%20CSS */
